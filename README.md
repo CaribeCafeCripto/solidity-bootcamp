@@ -10,7 +10,7 @@
 
 Archivos del bootcamp Solidity con ReactJS en la blockchain Ethereum
 
-# Link de las clases: https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA
+# Link: https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA
 
 Todas las referencias son desplegadas tanto en redes locales como en redes testnet.
 
