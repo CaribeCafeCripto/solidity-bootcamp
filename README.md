@@ -44,3 +44,31 @@ No es requisito disponer de Tokens reales.
 <li><a href="#herencia">Herencia</a></li>
 </ol>
 </details>
+<details open>
+<summary> <a href="#fundamentos">Modulo 2: Patrones de diseño</a></summary>
+<ol>
+<li><a href="#patron-factory">Patrón Factory</a></li>
+<li><a href="#patron-singleton">Patrón Singleton</a></li>
+<li><a href="#patron-observer">Patrón observer</a></li>
+<li><a href="#patron-proxy">Patron Proxy</a></li>
+<li><a href="#patron-state">Patrón State</a></li>
+</ol>
+</details>
+<details open>
+<summary> <a href="#tokens">Modulo 3: Tokens</a></summary>
+<ol>
+<li><a href="#token-fungible">Token Fungible</a></li>
+<li><a href="#nft">NFT</a></li>
+<li><a href="#soulbound-token">Soulbound Token</a></li>
+<li><a href="#poap">POAP</a></li>
+</ol>
+</details>
+<details open>
+<summary> <a href="#proyectos">Modulo 4: Proyectos</a></summary>
+<ol>
+<li><a href="#integracion-con-react">Integración con React</a></li>
+<li><a href="#twatter">Twatter</a></li>
+<li><a href="#tienda-nft">Tienda NFT</a></li>
+<li><a href="#chat">Chat</a></li>
+</ol>
+</details>
