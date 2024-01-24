@@ -72,3 +72,13 @@ No es requisito disponer de Tokens reales.
 <li><a href="#chat">Chat</a></li>
 </ol>
 </details>
+
+
+# Modulo 1: Fundamentos
+
+# Hola Mundo
+
+*[⌨️ Clase 1: Hola Mundo](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
+
+💻 Archivos: [1.1.holamundo](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.1.holamundo)
+
