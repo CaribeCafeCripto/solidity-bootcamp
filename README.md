@@ -31,3 +31,16 @@ No es requisito disponer de Tokens reales.
 <li><a href="#sepolia-faucets">Sepolia Faucets</a></li>
 </ol>
 </details>
+<details>
+<summary> <a href="#modulo-1-fundamentos">Modulo 1: Fundamentos</a></summary>
+<ol>
+<li><a href="#hola-mundo">Hola Mundo</a></li>
+<li><a href="#tipos-de-datos">Tipos de datos</a></li>
+<li><a href="#condicionales">Condicionales</a></li>
+<li><a href="#bucles">Bucles</a></li>
+<li><a href="#arrays">Arrays</a></li>
+<li><a href="#mappings">Mappings</a></li>
+<li><a href="#interfaces">Interfaces</a></li>
+<li><a href="#herencia">Herencia</a></li>
+</ol>
+</details>
