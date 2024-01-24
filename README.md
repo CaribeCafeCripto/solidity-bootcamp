@@ -25,13 +25,13 @@ No es requisito disponer de Tokens reales.
 
 # Tabla de contenidos
 
-<details>
+<details open>
 <summary>Recursos</summary>
 <ol>
 <li><a href="#sepolia-faucets">Sepolia Faucets</a></li>
 </ol>
 </details>
-<details>
+<details open>
 <summary> <a href="#fundamentos">Modulo 1: Fundamentos</a></summary>
 <ol>
 <li><a href="#hola-mundo">Hola Mundo</a></li>
