@@ -69,7 +69,7 @@ No es requisito disponer de Tokens reales.
 <li><a href="#integracion-con-react">Integración con React</a></li>
 <li><a href="#twatter">Twatter</a></li>
 <li><a href="#tienda-nft">Tienda NFT</a></li>
-<li><a href="#solidity_chat">Solidity hat</a></li>
+<li><a href="#solidity_chat">Solidity chat</a></li>
 </ol>
 </details>
 
