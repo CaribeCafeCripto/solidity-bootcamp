@@ -69,16 +69,21 @@ No es requisito disponer de Tokens reales.
 <li><a href="#integracion-con-react">Integración con React</a></li>
 <li><a href="#twatter">Twatter</a></li>
 <li><a href="#tienda-nft">Tienda NFT</a></li>
-<li><a href="#chat">Chat</a></li>
+<li><a href="#solidity_chat">Solidity hat</a></li>
 </ol>
 </details>
 
 
 # Modulo 1: Fundamentos
 
-# Hola Mundo
+## Hola Mundo
 
 *[⌨️ Clase 1: Hola Mundo](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
 
 💻 Archivos: [1.1.holamundo](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.1.holamundo)
 
+## Tipos de datos
+
+*[⌨️ Clase 2: Tipos de datos](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
+
+💻 Archivos: [1.1.tipos_de_datos](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.2.tipos_de_datos)
