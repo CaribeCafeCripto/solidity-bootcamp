@@ -32,7 +32,7 @@ No es requisito disponer de Tokens reales.
 </ol>
 </details>
 <details>
-<summary> <a href="#modulo-1-fundamentos">Modulo 1: Fundamentos</a></summary>
+<summary> <a href="#fundamentos">Modulo 1: Fundamentos</a></summary>
 <ol>
 <li><a href="#hola-mundo">Hola Mundo</a></li>
 <li><a href="#tipos-de-datos">Tipos de datos</a></li>
