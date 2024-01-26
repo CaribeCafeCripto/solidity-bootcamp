@@ -20,7 +20,7 @@ contract Datatipos {
         string nombre;
         uint256 edad;
     }
-    Persona public persona = Persona("CriptoRockstar", 30);
+    Persona public persona = Persona("CriptoRockstar", 33);
 
     // Enum
     enum Estado { Inactivo, Activo, Pendiente }

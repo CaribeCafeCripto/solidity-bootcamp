@@ -14,16 +14,16 @@ async function main() {
     const contract = await Contract.attach(contractAddress);
 
     /* Ejecutamos las funciones del contrato */
-    // Llamadas a los Getters
-    console.log("Entero:", await contract.getEntero());
-    console.log("Entero con Signo:", await contract.getEnteroConSigno());
-    console.log("Booleano:", await contract.getBooleano());
-    console.log("Dirección:", await contract.getDireccion());
-    console.log("Cadena:", await contract.getCadena());
-    console.log("Persona:", await contract.getPersona());
-    console.log("Estado Actual:", await contract.getEstadoActual());
-    console.log("Arreglo Dinámico:", await contract.getArregloDinamico());
-    console.log("Balance:", await contract.getBalance(process.env.ACCOUNT_ADDRESS));
+    // Llamadas a los Setters
+    await contract.setEntero(100);
+    await contract.setEnteroConSigno(-20);
+    await contract.setBooleano(false);
+    await contract.setDireccion(process.env.ACCOUNT_ADDRESS);
+    await contract.setCadena("Nuevo Mensaje");
+    await contract.setPersona("tandres", 23);
+    await contract.setEstadoActual(2);
+    await contract.setArregloDinamico([4, 5, 6]);
+    await contract.setBalance(process.env.ACCOUNT_ADDRESS, 100);
 }
 
 main().catch((error) => {
