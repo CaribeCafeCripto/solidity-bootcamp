@@ -2,6 +2,12 @@
 
 Punto de partida escencial del bootcamp
 
+El primer paso es descargar las dependencias con el siguiente comando:
+
+```shell
+npm install
+```
+
 ## Red local
 
 ### para correr los archivos en la red local debes tener instalado: 
