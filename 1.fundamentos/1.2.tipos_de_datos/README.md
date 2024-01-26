@@ -1,4 +1,4 @@
-# Tipos de variables
+# Tipos de datos
 
 Punto de partida escencial del bootcamp
 
