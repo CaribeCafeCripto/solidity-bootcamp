@@ -87,12 +87,13 @@ No es requisito disponer de Tokens reales.
 
 ## Hola Mundo
 
-*[⌨️ Clase 1: Hola Mundo](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
+*[🧑‍🏫 Clase 1: Hola Mundo](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
 
 💻 Archivos: [1.1.holamundo](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.1.holamundo)
 
+
 ## Tipos de datos
 
-*[⌨️ Clase 2: Tipos de datos](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
+*[🧑‍🏫 Clase 2: Tipos de datos](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
 
 💻 Archivos: [1.2.tipos_de_datos](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.2.tipos_de_datos)
