@@ -1,13 +1,42 @@
-# Sample Hardhat Project
+# Tipos de variables
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Punto de partida escencial del bootcamp
 
-Try running some of the following tasks:
+## Red local
+
+### para correr los archivos en la red local debes tener instalado: 
+
+* NodeJs >= v20.10.0
+* hardhat >= ^2.19.4
+
+Ejecuta el siguiente comando para iniciar la red local:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+
+## Red Testnet
+
+para correr los archivos en testnet debes introducir los datos correspondientes en el archivo .env
+
+## Ejecución
+
+Habiendo realizado alguno de los pasos anteriores debes compilar los archivos con el siguiente comando:
+
+```shell
+npx hardhat compile
+```
+
+Para desplegar los archivos debes especificar la red:
+
+#### Para localhost
+
+```shell
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+#### Para Testnet
+
+```shell
+npx hardhat run scripts/deploy.js --network sepholia
 ```

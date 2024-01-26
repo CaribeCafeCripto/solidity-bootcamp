@@ -64,12 +64,21 @@ No es requisito disponer de Tokens reales.
 </ol>
 </details>
 <details open>
-<summary> <a href="#proyectos">Modulo 4: Proyectos</a></summary>
+<summary> <a href="#proyectos">Modulo 4: Sistemas</a></summary>
 <ol>
-<li><a href="#integracion-con-react">Integración con React</a></li>
-<li><a href="#twatter">Twatter</a></li>
+<li><a href="#gestion-de-usuarios">Gestión de usuarios</a></li>
+<li><a href="#roles-y-permisos">Roles y permisos</a></li>
+<li><a href="#sesiones">Sesiones</a></li>
+<li><a href="#crud">CRUD</a></li>
+<li><a href="#websockets">WebSockets</a></li>
+</ol>
+</details>
+<details open>
+<summary> <a href="#proyectos">Modulo 5: Dapps</a></summary>
+<ol>
+<li><a href="#integrando-react">Integrando React</a></li>
 <li><a href="#tienda-nft">Tienda NFT</a></li>
-<li><a href="#solidity_chat">Solidity chat</a></li>
+<li><a href="#dashboard">Dashboard</a></li>
 </ol>
 </details>
 

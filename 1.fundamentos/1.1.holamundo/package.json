@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": "criptorockstar",
   "license": "MIT",
   "dependencies": {
     "hardhat": "^2.19.4"
