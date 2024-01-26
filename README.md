@@ -50,7 +50,7 @@ No es requisito disponer de Tokens reales.
 <li><a href="#patron-factory">Patrón Factory</a></li>
 <li><a href="#patron-singleton">Patrón Singleton</a></li>
 <li><a href="#patron-observer">Patrón observer</a></li>
-<li><a href="#patron-proxy">Patron Proxy</a></li>
+<li><a href="#patron-proxy">Patrón Proxy</a></li>
 <li><a href="#patron-state">Patrón State</a></li>
 </ol>
 </details>
