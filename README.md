@@ -8,7 +8,7 @@
 </p>
 <br/>
 
-Archivos del bootcamp Solidity con ReactJS en la blockchain Ethereum
+Archivos del bootcamp
 
 # Link del bootcamp: https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA
 
