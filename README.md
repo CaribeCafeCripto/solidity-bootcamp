@@ -8,8 +8,6 @@
 </p>
 <br/>
 
-Archivos del bootcamp
-
 # Link del bootcamp: https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA
 
 Todas las referencias son desplegadas tanto en redes locales como en redes testnet.
