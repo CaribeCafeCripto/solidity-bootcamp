@@ -1,22 +1,22 @@
-require("dotenv").config();
 const { ethers } = require("hardhat");
+const { getContractAddress } = require("../scripts/networks.js");
 
 async function main() {
-    // Creamos una instancia del contrato HolaMundo
-    const Contract = await ethers.getContractFactory("HolaMundo");
+    const Contract = await ethers.getContractFactory("Holamundo");
 
     /* Obtenemos la dirección del contrato 
-        previamente desplegado desde las variables de entorno*/
-    const contractAddress = process.env.CONTRACT_ADDRESS;
-
+        previamente desplegado desde las variables de entorno */    
+    const contractAddress = getContractAddress(network.name);
+    
     /* Conectamos nuestra instancia a la dirección del contrato 
        para poder interactuar con él */
     const contract = await Contract.attach(contractAddress);
 
     // Ejecutamos las funciones del contrato
-    const message = await contract.print();
-    console.log("El contenido del contrato HolaMundo es: ", message);
-}
+    await contract.update("Adios Mundo");
+    
+    console.log("El mensaje fue actualizado!");
+}   
 
 main().catch((error) => {
     console.log(error);

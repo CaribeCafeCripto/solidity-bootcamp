@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: MIT 
 pragma solidity >=0.8.19;
 
-contract HolaMundo {
-
-    // Definimos atributo
-    string mensaje;
-
+contract Holamundo {
+    // Definimos atributos privados
+    string _mensaje = "Hola Mundo";
+    
+    // Imprimimos mensaje
     function print() public view returns (string memory) {
-        return mensaje;
+        return _mensaje;
     }
 
     // Actualizamos mensaje
-    function actualizar(string memory _mensaje) public {
-        mensaje = _mensaje;
+    function update(string memory mensaje) public {
+        _mensaje = mensaje;
     }
 }
