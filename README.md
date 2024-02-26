@@ -105,4 +105,4 @@ Desarrollamos la primer aplicación en *Solidity* con *hardhat* y *JavaScript* c
 
 💻 Archivos: [1.2.tipos_de_datos](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.2.tipos_de_datos)
 
-Creamos una aplicación simple para poner en practica todos los tipos de datos con excepción de los mappings.
+Creamos una aplicación simple para poner en practica todos los tipos de datos.
