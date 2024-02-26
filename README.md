@@ -3,7 +3,7 @@
 <br/>
 <p align="center">
 <a href="https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA" target="_blank">
-<img src="./assets/thumnail.jpg" width="500" alt="Bootcamp Full Stack Solidity en Ethereum blockchain - De cero a experto | Edicion React">
+<img src="https://github.com/CaribeCafeCripto/solidity-bootcamp/blob/main/thumnail.jpg" width="500" alt="Bootcamp Full Stack Solidity en Ethereum blockchain - De cero a experto | Edicion React">
 </a>
 </p>
 <br/>
