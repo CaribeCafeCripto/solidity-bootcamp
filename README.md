@@ -44,8 +44,6 @@ SEPOLIA_KEY: Clave privada de tu wallet sepolia
 <li><a href="#hola-mundo">Hola Mundo</a></li>
 <li><a href="#tipos-de-datos">Tipos de datos</a></li>
 <li><a href="#funciones">Funciones</a></li>
-<li><a href="#bucles">Bucles</a></li>
-<li><a href="#arrays">Arrays</a></li>
 <li><a href="#mappings">Mappings</a></li>
 <li><a href="#interfaces">Interfaces</a></li>
 <li><a href="#herencia">Herencia</a></li>
