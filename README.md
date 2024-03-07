@@ -113,3 +113,4 @@ Creamos una aplicación simple para poner en practica todos los tipos de datos.
 
 💻 Archivos: [1.3.funciones](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.3.funciones)
 
+Ponemos en practica todos los modificadores de visibilidad y comportamiento.
