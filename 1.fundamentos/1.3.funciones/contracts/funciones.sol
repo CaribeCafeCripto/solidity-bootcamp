@@ -2,33 +2,9 @@
 pragma solidity ^0.8.19;
 
 contract Funciones {
-    /*@Modificadores de visibilidad
-    private: similar a internal pero estas no pueden ser accedidas
-    por contratos heredados.
-    */
-
-   /*@Modificadores de comportamiento
-    pure: Se ejecuta sin escribir datos en la blockhain por lo tanto
-    no incurre en costos de GAS.
-
-    view: No modifica el estado del contrato, pero puede leer los datos del estado
-    es util para consultar informacion del contrato y no incurre en costos de GAS.
-
-    payable: Permite que la funcion reciba fondos y realizar cambios en el estado del contrato.
-
-    virtual: Indica que la funcion puede ser sobreescrita en una clase derivada,
-    es útil cuando se quiere permitir que las subclases cambien el comportamiento de la función.
-
-    override: Indica que la función está sobrescribiendo una función virtual en una clase base,
-    es útil para la herencia y la implementación de interfaces.
-
-    abstract: Indica que la función no tiene una implementación y debe ser sobrescrita por las subclases.
-    se utiliza en interfaces y en clases abstractas.
-    */
-
     uint public numero;
 
-   // Modificadores de visibilidad
+   //@ Modificadores de visibilidad
 
    /*public: pueden ser llamadas de manera interna y externa
     sin ningun tipo de restriccion.*/
@@ -58,5 +34,46 @@ contract Funciones {
     }
 
     /*internal: solo pueden ser llamadas de forma interna
-    o por contratos heredados.*/
+    o por contratos heredados. Es la visibilidad por defecto */
+    function setInternal(uint _numero) internal {
+        numero = _numero;
+    }
+
+    function llamarInternal(uint _numero) public {
+        /* la unica forma de acceder a setInternal
+        es desde dentro del contrato */
+        setInternal(_numero);
+    }
+
+    /*private: similar a internal pero estas no pueden ser accedidas
+    por contratos heredados. */
+    function setPrivate(uint _numero) private {
+        numero = _numero;
+    }
+
+    function llamarPrivate(uint _numero) public {
+        setPrivate(_numero);
+    }
+
+
+    //@Modificadores de comportamiento
+
+    /*pure: Se ejecuta sin escribir datos en la blockhain por lo tanto
+    no incurre en costos de GAS.*/
+
+    /*view: No modifica el estado del contrato, pero puede leer los datos del estado
+    es util para consultar informacion del contrato y no incurre en costos de GAS.*/
+
+    /*payable: Permite que la funcion reciba fondos
+    y realizar cambios en el estado del contrato. */
+
+    /*virtual: Indica que la funcion puede ser sobreescrita en una clase derivada,
+    es útil cuando se quiere permitir que las subclases
+    cambien el comportamiento de la función.*/
+
+    /*override: Indica que la función está sobrescribiendo una función virtual en
+    una clase base, es útil para la herencia y la implementación de interfaces. */
+
+    /*abstract: Indica que la función no tiene una implementación y debe ser sobrescrita
+    por las subclases. se utiliza en interfaces y en clases abstractas. */
 }
