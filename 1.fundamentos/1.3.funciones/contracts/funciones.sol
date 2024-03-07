@@ -30,13 +30,13 @@ contract Funciones {
 
    // Modificadores de visibilidad
 
-   /*public: pueden ser llamadas desde dentro y fuera
-    del contrato sin ningun tipo de restriccion.*/
+   /*public: pueden ser llamadas de manera interna y externa
+    sin ningun tipo de restriccion.*/
     function setPublico(uint _numero) public {
         numero = _numero;
     }
 
-    /*external: solo pueden ser llamadas desde fuera del contrato,
+    /*external: solo pueden ser llamadas de forma externa,
     son utiles para interfaces con otros contratos.*/
 
     function setExternal(uint _numero) external {
@@ -44,8 +44,8 @@ contract Funciones {
     }
 
     function sumarPublico(uint _sumar) public {
-        /* Funcionara porque estamos usando 'this.'
-        para hacer la llamada a una funcion externa*/
+        /* Funcionara porque estamos usando la palabra 'this.'
+        para hacer la llamada externa*/
         this.setExternal(numero + _sumar);
     }
 
@@ -57,6 +57,6 @@ contract Funciones {
         //setExternal(numero * 2);
     }
 
-    /*internal: solo pueden ser llamadas desde dentro del mismo contrato
+    /*internal: solo pueden ser llamadas de forma interna
     o por contratos heredados.*/
 }
