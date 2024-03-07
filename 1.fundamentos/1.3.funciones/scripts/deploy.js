@@ -8,7 +8,7 @@ async function main() {
   console.log("Deploy desde la cuenta: ", deployer.address);
 
   // Desplegamos e imprimimos la dirección del contato
-  const contract = await ethers.deployContract("Holamundo");
+  const contract = await ethers.deployContract("Funciones");
 
   // Obtenenos la direccion del contrato
   const contractAddress = await contract.getAddress();
@@ -18,7 +18,7 @@ async function main() {
   // Actualizamos las variables de entorno
   updateAddress(contractAddress, network.name);
 
-  console.log(`\nEtherscan: https://sepolia.etherscan.io/address/${contractAddress}`)
+  console.log(`\nEtherscan: https://sepolia.etherscan.io/address/${contractAddress}`);
 }
 
 main().catch((error) => {

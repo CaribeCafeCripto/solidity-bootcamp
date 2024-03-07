@@ -10,10 +10,15 @@ async function main() {
   // Desplegamos e imprimimos la dirección del contato
   const contract = await ethers.deployContract("Datatipos");
 
-  console.log("Direccion del contrato: ", await contract.getAddress());
+  // Obtenenos la direccion del contrato
+  const contractAddress = await contract.getAddress();
+
+  console.log("Direccion del contrato: ", contractAddress);
 
   // Actualizamos las variables de entorno
-  updateAddress(await contract.getAddress(), network.name);
+  updateAddress(contractAddress, network.name);
+
+  console.log(`\nEtherscan: https://sepolia.etherscan.io/address/${contractAddress}`)
 }
 
 main().catch((error) => {

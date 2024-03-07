@@ -17,7 +17,7 @@ Red tesnet empleada: Sepolia
 # Sepolia Faucets
 PoW Faucet:<a href="https://sepolia-faucet.pk910.de/" target="_blank"> https://sepolia-faucet.pk910.de/</a>
 
-> ⚠️ Todo el código asociado al bootcamp fué pensado para un entorno de pruebas. No fueron auditados como para ser usados en producción. Usalos a tu criterio bajo tu propia responsabilidad. 
+> ⚠️ Todo el código asociado al bootcamp fué pensado para un entorno de pruebas. No fueron auditados como para ser usados en producción. Usalos a tu criterio bajo tu propia responsabilidad.
 
 * No es requisito disponer de Tokens reales.
 
@@ -43,7 +43,7 @@ SEPOLIA_KEY: Clave privada de tu wallet sepolia
 <ol>
 <li><a href="#hola-mundo">Hola Mundo</a></li>
 <li><a href="#tipos-de-datos">Tipos de datos</a></li>
-<li><a href="#condicionales">Condicionales</a></li>
+<li><a href="#funciones">Funciones</a></li>
 <li><a href="#bucles">Bucles</a></li>
 <li><a href="#arrays">Arrays</a></li>
 <li><a href="#mappings">Mappings</a></li>
@@ -106,3 +106,10 @@ Desarrollamos la primer aplicación en *Solidity* con *hardhat* y *JavaScript* c
 💻 Archivos: [1.2.tipos_de_datos](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.2.tipos_de_datos)
 
 Creamos una aplicación simple para poner en practica todos los tipos de datos.
+
+## Funciones
+
+*[🧑‍🏫 Clase 3: Funciones](https://www.youtube.com/channel/UCmAVXvosFrxoLg73PrT6jjA)*
+
+💻 Archivos: [1.3.funciones](https://github.com/CaribeCafeCripto/solidity-bootcamp/tree/main/1.fundamentos/1.3.funciones)
+
