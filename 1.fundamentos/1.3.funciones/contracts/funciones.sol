@@ -2,16 +2,12 @@
 pragma solidity ^0.8.19;
 
 contract Funciones {
-    /*@Tipos de funciones
-
-    internal: solo pueden ser llamadas desde dentro del mismo contrato
-    o por contratos heredados.
-
+    /*@Modificadores de visibilidad
     private: similar a internal pero estas no pueden ser accedidas
     por contratos heredados.
     */
 
-   /*@ Parametros
+   /*@Modificadores de comportamiento
     pure: Se ejecuta sin escribir datos en la blockhain por lo tanto
     no incurre en costos de GAS.
 
@@ -60,4 +56,7 @@ contract Funciones {
         /* Descomentar la siguiente linea causara un error de compilacion*/
         //setExternal(numero * 2);
     }
+
+    /*internal: solo pueden ser llamadas desde dentro del mismo contrato
+    o por contratos heredados.*/
 }
